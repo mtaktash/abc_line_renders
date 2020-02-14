@@ -1,6 +1,10 @@
 # abc_line_renders
 
 ```
+run_docker.sh -d <server_data_dir> -l <server_logs_dir> -g <gpu-indexes>
+```
+
+```
 usage: render_step_file.py [-h] -i INPUT_FILE -o OUTPUT_FILE [--width WIDTH]
                            [--height HEIGHT] [--line-width LINE_WIDTH]
                            [--margin-top MARGIN_TOP]
